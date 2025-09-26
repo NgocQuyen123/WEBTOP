@@ -20,7 +20,7 @@ export default function Header() {
                 <div className="container w-full  mx-auto flex items-center justify-between px-4">
                     <div className="flex items-center">
                         <Image
-                            src="/unnamed.webp"
+                            src="/assets/unnamed.webp"
                             alt="Logo"
                             width={100}
                             height={40}
