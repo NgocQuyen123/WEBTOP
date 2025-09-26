@@ -6,32 +6,86 @@ import EventCard from '../components/eventCard/EventCard';
 import RoundCard from '../components/roundCard/RoundCard';
 import { fetchAllData } from "../lib/fetchAll";
 import RegistrationForm from "../components/registrationForm/RegistrationForm";
+// src/assets/images.js
+// import img from "/assets/unnamed.png";
+// import img1 from "/assets/unnamed-1.webp";
+// import img2 from "/assets/unnamed-2.webp";
+
+// import img12 from "/assets/unnamed-12.webp";
+// import img13 from "/assets/unnamed-13.webp";
+// import img14 from "/assets/unnamed-14.webp";
+// import img15 from "/assets/unnamed-15.webp";
+// import img16 from "/assets/unnamed-16.webp";
+// import img17 from "/assets/unnamed-17.webp";
+// import img18 from "/assets/unnamed-18.webp";
+// import img19 from "/assets/unnamed-19.webp";
+// import img20 from "/assets/unnamed-20.webp";
+// import img21 from "/assets/unnamed-21.webp";
+// import img22 from "/assets/unnamed-22.webp";
+// import img23 from "/assets/unnamed-23.webp";
+
+// import img24 from "/assets/unnamed-24.webp";
+// import img25 from "/assets/unnamed-25.webp";
+// import img26 from "/assets/unnamed-26.webp";
+// import img27 from "/assets/unnamed-27.webp";
+// import img28 from "/assets/unnamed-28.webp";
+// import img29 from "/assets/unnamed-29.webp";
+// import img30 from "/assets/unnamed-30.webp";
 
 export default async function Home() {
   const { cartData, cartEvent, cartMentors, cartRound, competitionGoals, prizes } = await fetchAllData();
 
+  // const images1 = [
+  //   "../assets/unnamed-13.webp",
+  //   "../assets/unnamed-14.webp",
+  //   "../assets/unnamed-15.webp",
+  //   "../assets/unnamed-16.webp",
+  //   "../assets/unnamed-17.webp",
+  //   "../assets/unnamed-18.webp",
+  //   "../assets/unnamed-19.webp",
+  //   "../assets/unnamed-20.webp",
+  //   "../assets/unnamed-21.webp",
+  //   "../assets/unnamed-22.webp",
+  //   "../assets/unnamed-23.webp",
+  // ];
+  // const images2 = [
+  //   "../assets/unnamed-24.webp",
+  //   "../assets/unnamed-25.webp",
+  //   "../assets/unnamed-26.webp",
+  //   "../assets/unnamed-27.webp",
+  //   "../assets/unnamed-28.webp",
+  //   "../assets/unnamed-29.webp",
+  //   "../assets/unnamed-30.webp",
+  // ]
+  const img = "/assets/unnamed.png";
+  const img1 = "/assets/unnamed-1.webp";
+  const img2 = "/assets/unnamed-2.webp";
+  const img12 = "/assets/unnamed-12.webp";
+
   const images1 = [
-    "/src/assets/unnamed-13.webp",
-    "/src/assets/unnamed-14.webp",
-    "/src/assets/unnamed-15.webp",
-    "/src/assets/unnamed-16.webp",
-    "/src/assets/unnamed-17.webp",
-    "/src/assets/unnamed-18.webp",
-    "/src/assets/unnamed-19.webp",
-    "/src/assets/unnamed-20.webp",
-    "/src/assets/unnamed-21.webp",
-    "/src/assets/unnamed-22.webp",
-    "/src/assets/unnamed-23.webp",
+    "/assets/unnamed-13.webp",
+    "/assets/unnamed-14.webp",
+    "/assets/unnamed-15.webp",
+    "/assets/unnamed-16.webp",
+    "/assets/unnamed-17.webp",
+    "/assets/unnamed-18.webp",
+    "/assets/unnamed-19.webp",
+    "/assets/unnamed-20.webp",
+    "/assets/unnamed-21.webp",
+    "/assets/unnamed-22.webp",
+    "/assets/unnamed-23.webp",
   ];
+
   const images2 = [
-    "/src/assets/unnamed-24.webp",
-    "/src/assets/unnamed-25.webp",
-    "/src/assets/unnamed-26.webp",
-    "/src/assets/unnamed-27.webp",
-    "/src/assets/unnamed-28.webp",
-    "/src/assets/unnamed-29.webp",
-    "/src/assets/unnamed-30.webp",
-  ]
+    "/assets/unnamed-24.webp",
+    "/assets/unnamed-25.webp",
+    "/assets/unnamed-26.webp",
+    "/assets/unnamed-27.webp",
+    "/assets/unnamed-28.webp",
+    "/assets/unnamed-29.webp",
+    "/assets/unnamed-30.webp",
+  ];
+
 
   return (
     <div>
@@ -42,7 +96,7 @@ export default async function Home() {
           subtitle="Norm"
           note="2025"
           content="is a competition designed for students who are passionate about public speaking and wish to enhance their English communication skills. This contest provides participants with the opportunity to showcase critical thinking, presentation skills, and connect with experts and peers nationwide."
-          imageSrc="/unnamed-1.webp"
+          imageSrc={img1}
           buttonText1="Get Started"
           buttonText2="Learn More"
         />
@@ -55,14 +109,14 @@ export default async function Home() {
           subtitle="Norm"
           note="2025"
           content="Open to university and college students aged 18-25 with intermediate or higher English skills. Ideal for those eager to improve public speaking and express ideas confidently."
-          imageSrc="/unnamed-2.webp"
+          imageSrc={img2}
           buttonText1="Get Started"
         />
       </div>
 
       <div className="bg-[linear-gradient(0deg,rgba(255,252,229,0.85)_0%,rgb(255,255,255)_100%)]">
         <div className="px-4 max-w-[1290px] mx-auto py-15">
-          <CartCollection cartData={cartRound} Component={RoundCard} type={1} dividerImage="/unnamed-12.webp" />
+          <CartCollection cartData={cartRound} Component={RoundCard} type={1} dividerImage={img12} />
         </div>
       </div>
 
@@ -72,7 +126,7 @@ export default async function Home() {
 
       <div className="bg-primary3 w-full px-4 p-1 mt-25">
         <div className="bg-white rounded-lg shadow max-w-[1024px] mx-auto my-20 px-5"
-          style={{ backgroundImage: "url('/unnamed.png')" }}
+          style={{ backgroundImage: `url(${img})` }}
         >
           <div className="py-5 text-center">
             <h2 className="text-[32px] font-bold text-primary">Prizes</h2>
