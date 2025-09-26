@@ -16,7 +16,7 @@ export default async function Footer() {
                 <div>
                     <h3 className="text-[28px] font-medium mb-4">Liên hệ với chúng tôi</h3>
                     <form className="flex flex-col space-y-4">
-                        {formFields.map((field, idx) => (
+                        {formFields?.map((field, idx) => (
                             <div key={idx}>
                                 <label className="block text-sm mb-1">
                                     {field.required && <span className="text-red-500">*</span>}{" "}

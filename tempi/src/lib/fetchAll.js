@@ -16,15 +16,24 @@ export async function fetchAllData() {
         ]);
 
         return {
-            cartData,
-            cartEvent,
-            cartMentors,
-            cartRound,
-            competitionGoals,
-            prizes,
-            formFields,
-            addressInfo,
-            contactInfo,
+            // cartData,
+            // cartEvent,
+            // cartMentors,
+            // cartRound,
+            // competitionGoals,
+            // prizes,
+            // formFields,
+            // addressInfo,
+            // contactInfo,
+            cartData: cartData || [],
+            cartEvent: cartEvent || [],
+            cartMentors: cartMentors || [],
+            cartRound: cartRound || [],
+            competitionGoals: competitionGoals || [],
+            prizes: prizes || [],
+            formFields: formFields || [],
+            addressInfo: addressInfo || [],
+            contactInfo: contactInfo || [],
         };
     } catch (error) {
         console.error("Failed to fetch all data:", error);
