@@ -11,26 +11,26 @@ export default async function Home() {
   const { cartData, cartEvent, cartMentors, cartRound, competitionGoals, prizes } = await fetchAllData();
 
   const images1 = [
-    "/unnamed-13.webp",
-    "/unnamed-14.webp",
-    "/unnamed-15.webp",
-    "/unnamed-16.webp",
-    "/unnamed-17.webp",
-    "/unnamed-18.webp",
-    "/unnamed-19.webp",
-    "/unnamed-20.webp",
-    "/unnamed-21.webp",
-    "/unnamed-22.webp",
-    "/unnamed-23.webp",
+    "/src/assets/unnamed-13.webp",
+    "/src/assets/unnamed-14.webp",
+    "/src/assets/unnamed-15.webp",
+    "/src/assets/unnamed-16.webp",
+    "/src/assets/unnamed-17.webp",
+    "/src/assets/unnamed-18.webp",
+    "/src/assets/unnamed-19.webp",
+    "/src/assets/unnamed-20.webp",
+    "/src/assets/unnamed-21.webp",
+    "/src/assets/unnamed-22.webp",
+    "/src/assets/unnamed-23.webp",
   ];
   const images2 = [
-    "/unnamed-24.webp",
-    "/unnamed-25.webp",
-    "/unnamed-26.webp",
-    "/unnamed-27.webp",
-    "/unnamed-28.webp",
-    "/unnamed-29.webp",
-    "/unnamed-30.webp",
+    "/src/assets/unnamed-24.webp",
+    "/src/assets/unnamed-25.webp",
+    "/src/assets/unnamed-26.webp",
+    "/src/assets/unnamed-27.webp",
+    "/src/assets/unnamed-28.webp",
+    "/src/assets/unnamed-29.webp",
+    "/src/assets/unnamed-30.webp",
   ]
 
   return (

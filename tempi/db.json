@@ -5,22 +5,22 @@
             "subtitle": "This competition provides a platform for students to enhance their English public speaking skills, fostering confidence, critical thinking, and creativity.",
             "items": [
                 {
-                    "imageSrc": "/unnamed-3.webp",
+                    "imageSrc": "./src/assets/unnamed-3.webp",
                     "title": "Skill Development",
                     "content": "Provide a professional environment for students to hone their public speaking skills."
                 },
                 {
-                    "imageSrc": "/unnamed-4.webp",
+                    "imageSrc": "./src/assets/unnamed-4.webp",
                     "title": "Confidence Building",
                     "content": "Foster self-confidence and the ability to deliver compelling speeches."
                 },
                 {
-                    "imageSrc": "/unnamed-5.webp",
+                    "imageSrc": "./src/assets/unnamed-5.webp",
                     "title": "Networking",
                     "content": "Connect young individuals who share a passion for public speaking and learning from industry professionals."
                 },
                 {
-                    "imageSrc": "/unnamed-6.webp",
+                    "imageSrc": "./src/assets/unnamed-6.webp",
                     "title": "Critical Thinking",
                     "content": "Encourage creativity, critical thinking, and debate skills."
                 }
@@ -34,7 +34,7 @@
             "items": [
                 {
                     "variant": "doubleImage",
-                    "imageSrc": "/unnamed-11.webp",
+                    "imageSrc": "./src/assets/unnamed-11.webp",
                     "secondImageSrc": "/unnamed-8.webp",
                     "title": "2022 – “Speak Up”",
                     "content": [
@@ -44,8 +44,8 @@
                 },
                 {
                     "variant": "doubleImage",
-                    "imageSrc": "/unnamed-11.webp",
-                    "secondImageSrc": "/unnamed-8.webp",
+                    "imageSrc": "./src/assets/unnamed-11.webp",
+                    "secondImageSrc": "./src/assets/unnamed-8.webp",
                     "title": "2022 – “Speak Up”",
                     "content": [
                         "150+ participants from over 20 universities",
@@ -54,8 +54,8 @@
                 },
                 {
                     "variant": "doubleImage",
-                    "imageSrc": "/unnamed-11.webp",
-                    "secondImageSrc": "/unnamed-8.webp",
+                    "imageSrc": "./src/assets/unnamed-11.webp",
+                    "secondImageSrc": "./src/assets/unnamed-8.webp",
                     "title": "2022 – “Speak Up”",
                     "content": [
                         "150+ participants from over 20 universities",
@@ -70,17 +70,17 @@
             "title": "Judges & Mentors",
             "items": [
                 {
-                    "imageSrc": "/unnamed-7.webp",
+                    "imageSrc": "./src/assets/unnamed-7.webp",
                     "title": "Mr. John Smith",
                     "content": "International public speaking coach"
                 },
                 {
-                    "imageSrc": "/unnamed-7.webp",
+                    "imageSrc": "./src/assets/unnamed-7.webp",
                     "title": "Mr. John Smith",
                     "content": "International public speaking coach"
                 },
                 {
-                    "imageSrc": "/unnamed-7.webp",
+                    "imageSrc": "./src/assets/unnamed-7.webp",
                     "title": "Mr. John Smith",
                     "content": "International public speaking coach"
                 }
@@ -96,7 +96,7 @@
                 {
                     "variant": "withButton",
                     "buttonText": "Learn More",
-                    "imageSrc": "/unnamed-8.webp",
+                    "imageSrc": "./src/assets/unnamed-8.webp",
                     "title": "Preliminary Round",
                     "subtitle": "20/01 - 23/02/2025",
                     "content": "Participants register and submit a 3-5 minute video speech on a given topic provided by the organizers."
@@ -104,7 +104,7 @@
                 {
                     "variant": "withButton",
                     "buttonText": "Learn More",
-                    "imageSrc": "/unnamed-9.webp",
+                    "imageSrc": "./src/assets/unnamed-9.webp",
                     "title": "Semi-final Round",
                     "subtitle": "09/03 - 26/03/2025",
                     "content": "Judges will assess logical reasoning, rebuttal skills, and presentation style."
@@ -112,7 +112,7 @@
                 {
                     "variant": "withButton",
                     "buttonText": "Learn More",
-                    "imageSrc": "/unnamed-10.webp",
+                    "imageSrc": "./src/assets/unnamed-10.webp",
                     "title": "Final Round",
                     "subtitle": "13/04/2025",
                     "content": "The Top 10 contestants will deliver a 6-8 minute speech in front of the judges and audience."
@@ -122,22 +122,22 @@
     ],
     "competitionGoals": [
         {
-            "imageSrc": "/unnamed-3.webp",
+            "imageSrc": "./src/assets/unnamed-3.webp",
             "title": "Skill Development",
             "content": "Provide a professional environment for students to hone their public speaking skills."
         },
         {
-            "imageSrc": "/unnamed-4.webp",
+            "imageSrc": "./src/assets/unnamed-4.webp",
             "title": "Confidence Building",
             "content": "Foster self-confidence and the ability to deliver compelling speeches."
         },
         {
-            "imageSrc": "/unnamed-5.webp",
+            "imageSrc": "./src/assets/unnamed-5.webp",
             "title": "Networking",
             "content": "Connect young individuals who share a passion for public speaking and learning from industry professionals."
         },
         {
-            "imageSrc": "/unnamed-6.webp",
+            "imageSrc": "./src/assets/unnamed-6.webp",
             "title": "Critical Thinking",
             "content": "Encourage creativity, critical thinking, and debate skills."
         }
