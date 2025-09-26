@@ -14,6 +14,20 @@ async function fetchAPI(endpoint) {
     }
 }
 
+// const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "";
+
+// async function fetchAPI(endpoint) {
+//     try {
+//         const res = await fetch(`${BASE_URL}/data/${endpoint}.json`);
+//         if (!res.ok) throw new Error(`Failed to fetch ${endpoint}: ${res.status}`);
+//         return await res.json();
+//     } catch (error) {
+//         console.error(error);
+//         return null;
+//     }
+// }
+
+
 export async function getCartData() {
     return fetchAPI("cartData");
 }

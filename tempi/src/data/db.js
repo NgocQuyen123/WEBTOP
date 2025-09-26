@@ -1,0 +1,215 @@
+export const cartData = [
+    {
+        title: "Competition Goals",
+        subtitle:
+            "This competition provides a platform for students to enhance their English public speaking skills, fostering confidence, critical thinking, and creativity.",
+        items: [
+            {
+                imageSrc: "/assets/unnamed-3.webp",
+                title: "Skill Development",
+                content:
+                    "Provide a professional environment for students to hone their public speaking skills.",
+            },
+            {
+                imageSrc: "/assets/unnamed-4.webp",
+                title: "Confidence Building",
+                content: "Foster self-confidence and the ability to deliver compelling speeches.",
+            },
+            {
+                imageSrc: "/assets/unnamed-5.webp",
+                title: "Networking",
+                content:
+                    "Connect young individuals who share a passion for public speaking and learning from industry professionals.",
+            },
+            {
+                imageSrc: "/assets/unnamed-6.webp",
+                title: "Critical Thinking",
+                content: "Encourage creativity, critical thinking, and debate skills.",
+            },
+        ],
+    },
+];
+
+export const cartEvent = [
+    {
+        title: "Past Award Highlights",
+        subtitle:
+            "Over the years, Break the Norm has showcased talented young voices and powerful ideas. Each season highlighted unique themes and inspired participants to make their mark beyond the stage.",
+        items: [
+            {
+                variant: "doubleImage",
+                imageSrc: "/assets/unnamed-11.webp",
+                secondImageSrc: "/assets/unnamed-8.webp",
+                title: "2022 – “Speak Up”",
+                content: [
+                    "150+ participants from over 20 universities",
+                    "First Prize: Tran Hoang Minh (Foreign Trade University)",
+                ],
+            },
+            {
+                variant: "doubleImage",
+                imageSrc: "/assets/unnamed-11.webp",
+                secondImageSrc: "/assets/unnamed-8.webp",
+                title: "2022 – “Speak Up”",
+                content: [
+                    "150+ participants from over 20 universities",
+                    "First Prize: Tran Hoang Minh (Foreign Trade University)",
+                ],
+            },
+            {
+                variant: "doubleImage",
+                imageSrc: "/assets/unnamed-11.webp",
+                secondImageSrc: "/assets/unnamed-8.webp",
+                title: "2022 – “Speak Up”",
+                content: [
+                    "150+ participants from over 20 universities",
+                    "First Prize: Tran Hoang Minh (Foreign Trade University)",
+                ],
+            },
+        ],
+    },
+];
+
+export const cartMentors = [
+    {
+        title: "Judges & Mentors",
+        items: [
+            {
+                imageSrc: "/assets/unnamed-7.webp",
+                title: "Mr. John Smith",
+                content: "International public speaking coach",
+            },
+            {
+                imageSrc: "/assets/unnamed-7.webp",
+                title: "Mr. John Smith",
+                content: "International public speaking coach",
+            },
+            {
+                imageSrc: "/assets/unnamed-7.webp",
+                title: "Mr. John Smith",
+                content: "International public speaking coach",
+            },
+        ],
+    },
+];
+
+export const cartRound = [
+    {
+        title: "Competition Format",
+        subtitle:
+            'The "Break the Norm 2025" contest will take place from January 20, 2025, to April 13, 2025, consisting of three main rounds:',
+        dividerImage: "/assets/unnamed-12.webp",
+        items: [
+            {
+                variant: "withButton",
+                buttonText: "Learn More",
+                imageSrc: "/assets/unnamed-8.webp",
+                title: "Preliminary Round",
+                subtitle: "20/01 - 23/02/2025",
+                content:
+                    "Participants register and submit a 3-5 minute video speech on a given topic provided by the organizers.",
+            },
+            {
+                variant: "withButton",
+                buttonText: "Learn More",
+                imageSrc: "/assets/unnamed-9.webp",
+                title: "Semi-final Round",
+                subtitle: "09/03 - 26/03/2025",
+                content:
+                    "Judges will assess logical reasoning, rebuttal skills, and presentation style.",
+            },
+            {
+                variant: "withButton",
+                buttonText: "Learn More",
+                imageSrc: "/assets/unnamed-10.webp",
+                title: "Final Round",
+                subtitle: "13/04/2025",
+                content:
+                    "The Top 10 contestants will deliver a 6-8 minute speech in front of the judges and audience.",
+            },
+        ],
+    },
+];
+
+export const competitionGoals = [
+    {
+        imageSrc: "/assets/unnamed-3.webp",
+        title: "Skill Development",
+        content:
+            "Provide a professional environment for students to hone their public speaking skills.",
+    },
+    {
+        imageSrc: "/assets/unnamed-4.webp",
+        title: "Confidence Building",
+        content: "Foster self-confidence and the ability to deliver compelling speeches.",
+    },
+    {
+        imageSrc: "/assets/unnamed-5.webp",
+        title: "Networking",
+        content:
+            "Connect young individuals who share a passion for public speaking and learning from industry professionals.",
+    },
+    {
+        imageSrc: "/assets/unnamed-6.webp",
+        title: "Critical Thinking",
+        content: "Encourage creativity, critical thinking, and debate skills.",
+    },
+];
+
+export const prizes = [
+    {
+        title: "First Prize",
+        rewards: [
+            "5 million VND in cash.",
+            "Certificate of achievement.",
+            "3 million VND scholarship for a public speaking course.",
+        ],
+    },
+    {
+        title: "Second Prize",
+        rewards: [
+            "10 million VND in cash.",
+            "Trophy and certificate of achievement.",
+            "A 5 million VND scholarship for an advanced public speaking course.",
+            "Internship opportunities at NGOs or leading media firms.",
+        ],
+    },
+    {
+        title: "Third Prize",
+        rewards: [
+            "3 million VND in cash.",
+            "Certificate of achievement.",
+            "2 million VND scholarship for a public speaking course.",
+        ],
+    },
+];
+
+export const formFields = [
+    {
+        label: "Họ tên",
+        type: "text",
+        required: true,
+    },
+    {
+        label: "Nội dung",
+        type: "textarea",
+        required: false,
+    },
+];
+
+export const addressInfo = [
+    {
+        text: "Tòa Peakview, 36 Hoàng Cầu, Đống Đa, Hà Nội",
+    },
+];
+
+export const contactInfo = [
+    {
+        icon: "phone",
+        text: "012.3344.566",
+    },
+    {
+        icon: "mail",
+        text: "support@tempi.vn",
+    },
+];

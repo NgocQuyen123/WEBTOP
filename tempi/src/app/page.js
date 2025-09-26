@@ -6,6 +6,7 @@ import EventCard from '../components/eventCard/EventCard';
 import RoundCard from '../components/roundCard/RoundCard';
 import { fetchAllData } from "../lib/fetchAll";
 import RegistrationForm from "../components/registrationForm/RegistrationForm";
+import { cartData, cartEvent, cartMentors, cartRound, competitionGoals, prizes } from '../data/db';
 // src/assets/images.js
 // import img from "/assets/unnamed.png";
 // import img1 from "/assets/unnamed-1.webp";
@@ -33,7 +34,7 @@ import RegistrationForm from "../components/registrationForm/RegistrationForm";
 // import img30 from "/assets/unnamed-30.webp";
 
 export default async function Home() {
-  const { cartData, cartEvent, cartMentors, cartRound, competitionGoals, prizes } = await fetchAllData();
+  // const { cartData, cartEvent, cartMentors, cartRound, competitionGoals, prizes } = await fetchAllData();
 
   // const images1 = [
   //   "../assets/unnamed-13.webp",

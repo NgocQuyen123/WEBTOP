@@ -1,9 +1,10 @@
 
 import { fetchAllData } from "../../lib/fetchAll";
 import { PhoneIcon, MailIcon } from "lucide-react";
+import { formFields, addressInfo, contactInfo } from '../../data/db';
 
 export default async function Footer() {
-    const { formFields, addressInfo, contactInfo } = await fetchAllData();
+    // const { formFields, addressInfo, contactInfo } = await fetchAllData();
 
     const iconMap = {
         phone: PhoneIcon,
