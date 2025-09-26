@@ -5,7 +5,6 @@ import { formFields, addressInfo, contactInfo } from '../../data/db';
 
 export default async function Footer() {
     // const { formFields, addressInfo, contactInfo } = await fetchAllData();
-
     const iconMap = {
         phone: PhoneIcon,
         mail: MailIcon,

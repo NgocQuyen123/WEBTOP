@@ -7,57 +7,9 @@ import RoundCard from '../components/roundCard/RoundCard';
 import { fetchAllData } from "../lib/fetchAll";
 import RegistrationForm from "../components/registrationForm/RegistrationForm";
 import { cartData, cartEvent, cartMentors, cartRound, competitionGoals, prizes } from '../data/db';
-// src/assets/images.js
-// import img from "/assets/unnamed.png";
-// import img1 from "/assets/unnamed-1.webp";
-// import img2 from "/assets/unnamed-2.webp";
-
-// import img12 from "/assets/unnamed-12.webp";
-// import img13 from "/assets/unnamed-13.webp";
-// import img14 from "/assets/unnamed-14.webp";
-// import img15 from "/assets/unnamed-15.webp";
-// import img16 from "/assets/unnamed-16.webp";
-// import img17 from "/assets/unnamed-17.webp";
-// import img18 from "/assets/unnamed-18.webp";
-// import img19 from "/assets/unnamed-19.webp";
-// import img20 from "/assets/unnamed-20.webp";
-// import img21 from "/assets/unnamed-21.webp";
-// import img22 from "/assets/unnamed-22.webp";
-// import img23 from "/assets/unnamed-23.webp";
-
-// import img24 from "/assets/unnamed-24.webp";
-// import img25 from "/assets/unnamed-25.webp";
-// import img26 from "/assets/unnamed-26.webp";
-// import img27 from "/assets/unnamed-27.webp";
-// import img28 from "/assets/unnamed-28.webp";
-// import img29 from "/assets/unnamed-29.webp";
-// import img30 from "/assets/unnamed-30.webp";
 
 export default async function Home() {
-  // const { cartData, cartEvent, cartMentors, cartRound, competitionGoals, prizes } = await fetchAllData();
 
-  // const images1 = [
-  //   "../assets/unnamed-13.webp",
-  //   "../assets/unnamed-14.webp",
-  //   "../assets/unnamed-15.webp",
-  //   "../assets/unnamed-16.webp",
-  //   "../assets/unnamed-17.webp",
-  //   "../assets/unnamed-18.webp",
-  //   "../assets/unnamed-19.webp",
-  //   "../assets/unnamed-20.webp",
-  //   "../assets/unnamed-21.webp",
-  //   "../assets/unnamed-22.webp",
-  //   "../assets/unnamed-23.webp",
-  // ];
-  // const images2 = [
-  //   "../assets/unnamed-24.webp",
-  //   "../assets/unnamed-25.webp",
-  //   "../assets/unnamed-26.webp",
-  //   "../assets/unnamed-27.webp",
-  //   "../assets/unnamed-28.webp",
-  //   "../assets/unnamed-29.webp",
-  //   "../assets/unnamed-30.webp",
-  // ]
   const img = "/assets/unnamed.png";
   const img1 = "/assets/unnamed-1.webp";
   const img2 = "/assets/unnamed-2.webp";
